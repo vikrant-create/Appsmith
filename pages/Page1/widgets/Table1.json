@@ -631,7 +631,7 @@
   },
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 53,
   "searchKey": "",
   "serverSidePaginationEnabled": true,
   "showInlineEditingOptionDropdown": true,
