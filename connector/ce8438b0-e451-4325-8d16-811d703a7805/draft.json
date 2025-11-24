@@ -6,7 +6,7 @@
   "updatedAt": "2025-08-21T11:39:59.825066Z",
   "isDeleted": false,
   "entityId": "ce8438b0-e451-4325-8d16-811d703a7805",
-  "name": "mongodb",
+  "name": "mongodb_new",
   "category": "database",
   "isSource": true,
   "isAction": true,
