@@ -1,0 +1,36 @@
+{
+ "entityType": "module_schema",
+ "data": {
+  "createdAt": "2025-09-26T09:24:28.85Z",
+  "updatedAt": "2025-09-26T09:24:28.85Z",
+  "isDeleted": false,
+  "entityId": "02cb259b-a131-49f1-b677-08c5687613e1",
+  "name": "Lists",
+  "moduleId": "5d050a56-87ed-47cf-bd0e-f3d1834ac30a",
+  "dataType": "list",
+  "usageType": "optional",
+  "options": [
+   {
+    "value": [
+     "Atul",
+     "Raizada",
+     "Kumar"
+    ]
+   },
+   {
+    "value": [
+     1,
+     12,
+     22
+    ]
+   },
+   {
+    "value": [
+     "2025-07-08",
+     "2025-07-09",
+     "2025-07-19"
+    ]
+   }
+  ]
+ }
+}

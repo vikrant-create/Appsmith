@@ -1,0 +1,100 @@
+{
+ "entityType": "dataSet",
+ "category": "dataSet",
+ "data": {
+  "createdAt": "2025-08-22T07:56:39.429Z",
+  "updatedAt": "2025-08-22T07:57:44.378566Z",
+  "isDeleted": false,
+  "publishedAt": "0001-01-01T00:00:00Z",
+  "testedAt": "2025-08-22T07:57:33.744Z",
+  "entityId": "f01119e6-cdba-4520-b35e-e8e5f6925745",
+  "name": "DS1",
+  "commitId": "commit-36616129-2fe4-400f-93d2-4356a4c83dc8",
+  "status": "draft",
+  "lastVersion": "",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-08-22 07:56:39",
+   "timeStamp": "2025-08-22T07:56:39.428483836Z"
+  },
+  "fields": {
+   "Age": {
+    "ColumnName": "B",
+    "DataType": "numeric",
+    "Order": 2,
+    "ExecutedValue": 67
+   },
+   "Date": {
+    "ColumnName": "I",
+    "DataType": "date",
+    "Order": 9,
+    "ExecutedValue": "10-11-2025"
+   },
+   "Name": {
+    "ColumnName": "A",
+    "DataType": "string",
+    "Order": 1,
+    "ExecutedValue": "Atula"
+   },
+   "Extra": {
+    "ColumnName": "D",
+    "DataType": "string",
+    "Order": 4,
+    "ExecutedValue": "Atul"
+   },
+   "testing": {
+    "ColumnName": "H",
+    "DataType": "string",
+    "Order": 8,
+    "ExecutedValue": "Atul"
+   },
+   "for": {
+    "ColumnName": "F",
+    "DataType": "string",
+    "Order": 6,
+    "ExecutedValue": "Atul"
+   },
+   "Data": {
+    "ColumnName": "E",
+    "DataType": "string",
+    "Order": 5,
+    "ExecutedValue": "Atul"
+   },
+   "Salary": {
+    "ColumnName": "C",
+    "DataType": "numeric",
+    "Order": 3,
+    "ExecutedValue": 789
+   },
+   "unmapped": {
+    "ColumnName": "G",
+    "DataType": "string",
+    "Order": 7,
+    "ExecutedValue": "Atul"
+   }
+  },
+  "params": {
+   "file": {
+    "label": "Employees",
+    "value": "1lI5G1xHg18JwP04ibnkQPT0pCYgPE6r68B3URMfrc98"
+   },
+   "sheet": {
+    "label": "Sheet78",
+    "value": 2120473268
+   },
+   "isShared": true,
+   "hasHeader": true
+  },
+  "version": "draft",
+  "connectorId": "a383951f-1507-4890-8ad9-401f59f154fc",
+  "isDemo": false,
+  "settings": {
+   "durationUnit": "m",
+   "rowLimit": 10,
+   "durationValue": 5,
+   "cacheEnabled": true,
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  }
+ }
+}

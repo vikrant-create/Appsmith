@@ -1,0 +1,21 @@
+{
+ "entityType": "module_schema",
+ "data": {
+  "createdAt": "2025-09-26T09:24:28.856Z",
+  "updatedAt": "2025-09-26T09:24:28.856Z",
+  "isDeleted": false,
+  "entityId": "ecd4e376-effd-4cad-b55d-b784abf5003f",
+  "name": "json",
+  "moduleId": "759a6ac6-d2ad-4a8e-83b6-0c2d935eb43b",
+  "dataType": "json",
+  "usageType": "optional",
+  "options": [
+   {
+    "value": {
+     "key_name_1": "val1",
+     "key_name_2": "val2"
+    }
+   }
+  ]
+ }
+}

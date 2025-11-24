@@ -1,0 +1,127 @@
+{
+ "entityType": "rule",
+ "category": "decisionTable",
+ "live": true,
+ "data": {
+  "createdAt": "2025-09-18T11:37:24.424Z",
+  "updatedAt": "2025-09-18T11:39:00.357Z",
+  "isDeleted": false,
+  "testedAt": "2025-09-18T11:38:40.791Z",
+  "publishedAt": "2025-09-18T11:39:00.355Z",
+  "entityId": "67684709-dd7d-4360-8373-aa10d37446a8",
+  "name": "dtTest",
+  "commitId": "commit-176c7004-b040-461f-bcb4-e0061057b8f8",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": false,
+  "commitInfo": {
+   "title": "Created at 2025-09-18 11:37:24",
+   "description": "v1",
+   "timeStamp": "2025-09-18T11:39:00.353Z"
+  },
+  "customInput": {
+   "Name": {
+    "name": "Name",
+    "dataType": "string",
+    "executedValue": "Atul"
+   }
+  },
+  "decisionTable": {
+   "rows": {
+    "rule_01": {
+     "isEnabled": true
+    }
+   },
+   "properties": {
+    "rule_03": {
+     "type": "simpleCondition"
+    }
+   },
+   "firstRow": "rule_01",
+   "firstProperty": "rule_03"
+  },
+  "action": {
+   "then": {
+    "actionNode": {
+     "actionData_action_1": {
+      "name": "action_1",
+      "connectorId": "",
+      "entity": "workflow",
+      "entityId": "d17c9df2-2f22-4cf7-bd0d-9c5a8c13245d",
+      "config": {
+       "query": ""
+      },
+      "input": {
+       "Name": {
+        "name": "Name",
+        "dataType": "string",
+        "value": "Rarw"
+       }
+      }
+     }
+    },
+    "firstActionNode": "actionData_action_1"
+   },
+   "else": {
+    
+   }
+  },
+  "conditions": {
+   "nodes": {
+    "rule_01": {
+     "operator": "and",
+     "nodeType": "group",
+     "children": [
+      "rule_02"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_02": {
+     "value": "",
+     "operator": "any",
+     "dataType": "string",
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "rule_03"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_03": {
+     "sourceType": "customInput",
+     "dataType": "string",
+     "nodeType": "params",
+     "attribute": "Name",
+     "siblingIndex": 1
+    }
+   }
+  },
+  "firstCustomInput": "Name",
+  "description": "",
+  "policy": "first",
+  "version": "0.10",
+  "type": "decisionTable",
+  "dataSetId": "",
+  "settings": {
+   "startAt": "0001-01-01T00:00:00Z",
+   "endAt": "0001-01-01T00:00:00Z",
+   "api": {
+    "isEnabled": true,
+    "isPrivate": true
+   },
+   "isEnabled": true,
+   "cachingInfo": {
+    "Enabled": false,
+    "Duration": {
+     "Value": 0,
+     "Unit": ""
+    },
+    "CacheKeys": ""
+   },
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  },
+  "isDemo": false,
+  "schemaVersion": "0.1.1"
+ }
+}

@@ -1,0 +1,13 @@
+{
+ "entityType": "module_schema",
+ "data": {
+  "createdAt": "2025-09-03T09:15:00.625Z",
+  "updatedAt": "2025-09-03T09:15:00.625Z",
+  "isDeleted": false,
+  "entityId": "14e60fff-e480-4137-8ddb-9d637203884d",
+  "name": "hj",
+  "moduleId": "02959e98-7bd0-452f-9f4e-57f35a73e99b",
+  "dataType": "string",
+  "usageType": "optional"
+ }
+}

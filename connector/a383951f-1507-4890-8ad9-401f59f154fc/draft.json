@@ -1,0 +1,14 @@
+{
+ "entityType": "connector",
+ "category": "gsheet",
+ "data": {
+  "createdAt": "2025-08-21T06:53:36.732Z",
+  "updatedAt": "2025-09-26T06:45:51.818936Z",
+  "isDeleted": false,
+  "entityId": "a383951f-1507-4890-8ad9-401f59f154fc",
+  "name": "AutomationSheet",
+  "category": "third-party",
+  "isSource": true,
+  "isAction": true
+ }
+}

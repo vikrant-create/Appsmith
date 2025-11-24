@@ -1,0 +1,101 @@
+{
+ "entityType": "rule",
+ "category": "decisionTable",
+ "live": true,
+ "data": {
+  "createdAt": "2025-09-26T06:52:49.778Z",
+  "updatedAt": "2025-11-21T12:10:54.14Z",
+  "isDeleted": false,
+  "testedAt": "2025-11-21T12:10:48.098Z",
+  "publishedAt": "2025-11-21T12:10:54.132Z",
+  "entityId": "41fa8af3-8390-415a-bcc9-aec6131e6a05",
+  "name": "Test",
+  "commitId": "commit-c43c1c12-7af0-4419-a33c-016ba942e5f8",
+  "status": "published",
+  "lastVersion": "draft",
+  "isLive": true,
+  "commitInfo": {
+   "title": "Created at 2025-09-26 06:52:49",
+   "description": "f1",
+   "timeStamp": "2025-11-21T12:10:54.131Z"
+  },
+  "decisionTable": {
+   "rows": {
+    "rule_01": {
+     "isEnabled": true
+    }
+   },
+   "properties": {
+    "rule_03": {
+     "type": "simpleCondition"
+    }
+   },
+   "firstRow": "rule_01",
+   "firstProperty": "rule_03"
+  },
+  "action": {
+   "then": {
+    
+   },
+   "else": {
+    
+   }
+  },
+  "conditions": {
+   "nodes": {
+    "rule_01": {
+     "operator": "and",
+     "nodeType": "group",
+     "children": [
+      "rule_02"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_02": {
+     "value": "",
+     "operator": "any",
+     "dataType": "list",
+     "nodeType": "condition",
+     "parent": "rule_01",
+     "leftNode": [
+      "rule_03"
+     ],
+     "siblingIndex": 1
+    },
+    "rule_03": {
+     "sourceType": "globalVar",
+     "dataType": "list",
+     "nodeType": "params",
+     "attribute": "EmptyList2",
+     "siblingIndex": 1
+    }
+   }
+  },
+  "description": "",
+  "policy": "first",
+  "version": "0.10",
+  "type": "decisionTable",
+  "dataSetId": "",
+  "settings": {
+   "startAt": "0001-01-01T00:00:00Z",
+   "endAt": "0001-01-01T00:00:00Z",
+   "api": {
+    "isEnabled": true,
+    "isPrivate": true
+   },
+   "isEnabled": true,
+   "cachingInfo": {
+    "Enabled": false,
+    "Duration": {
+     "Value": 0,
+     "Unit": ""
+    },
+    "CacheKeys": ""
+   },
+   "timezone": "Asia/Calcutta",
+   "dateFormat": "in"
+  },
+  "isDemo": false,
+  "schemaVersion": "0.1.1"
+ }
+}
